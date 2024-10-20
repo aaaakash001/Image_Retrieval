@@ -16,7 +16,7 @@ Additionally, pre-trained VIT_Large models were used for feature extraction to c
 We explored the following techniques:
 1. **K-Means Clustering**: Used as a baseline to cluster image features from the gallery set.
 2. **Random Projection Hashing**: Implemented using random hyperplane splits to develop hash buckets.
-3. **Neural LSH**: Developed a learned hashing mechanism to improve upon random projection hashing using a data-driven approach. Based on the paper https://arxiv.org/pdf/2012.08974
+3. **Neural LSH**: Adapted a learned hashing mechanism to improve upon random projection hashing using a data-driven approach. Based on the paper https://arxiv.org/pdf/2012.08974
 4. **Neural LSH (Method 2)**: Adapted a learned hashing mechanism to improve upon random projection hashing using a data-driven approach. Baed on the paper https://indradyumna.github.io/pdfs/2023_FourierHashNet.pdf
 
 ## Datasets
